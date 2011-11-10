@@ -1,0 +1,9 @@
+{
+  "type": "record", 
+  "name": "LongList",
+  "namespace": "org.seattlehadoop.pigdemo9.avro",
+  "fields": [
+  	{"name": "value", "type": "long"}, 
+	    {"name": "next", "type": ["LongList", "null"]}
+	]
+}
