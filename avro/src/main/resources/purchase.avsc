@@ -1,0 +1,9 @@
+{
+  "type": "record", 
+  "name": "Purchase",
+  "namespace": "org.seattlehadoop.pigdemo9.avro",
+  "fields": [
+  		{"name": "itemName", "type": "string"}, 
+	    {"name": "quantity", "type": { "type": "array", "items": "int"} }
+	]
+}
